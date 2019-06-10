@@ -4,15 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/LeetCode/String/Group_Anagrams.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="255b2765-99d0-4949-956f-72ce3c12acea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/String/Find_And_Replace_in_String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/String/Group_Anagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/String/ValidABC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Compare_p_q_pp.java" afterDir="false" />
+    <list default="true" id="255b2765-99d0-4949-956f-72ce3c12acea" name="Default Changelist" comment="dialy code 2019/6/10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS_Algorithm/DesignModel/ProducerAndConsumer/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS_Algorithm/DesignModel/ProducerAndConsumer/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS_Algorithm/DesignModel/ProducerAndConsumer/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS_Algorithm/DesignModel/ProducerAndConsumer/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DS_Algorithm/LeetCode/String/Repeated_String_Match.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DS_Algorithm/LeetCode/String/Repeated_String_Match.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,40 +19,55 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
+          <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.64" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3016" />
+          <entry key="java" value="4299" />
+          <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3016" />
+          <entry key="JAVA" value="4299" />
+          <entry key="PLAIN_TEXT" value="20" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Compare_p_q_pp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="345">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/String/WorldSubset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="51" column="28" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,13 +93,14 @@
         <option value="$PROJECT_DIR$/src/LeetCode/String/Group_Anagrams.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/String/Find_And_Replace_in_String.java" />
         <option value="$PROJECT_DIR$/src/test/Compare_p_q_pp.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/String/WorldSubset.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -101,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,17 +123,29 @@
               <item name="Ds_Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Ds_Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ds_Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ds_Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ds_Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560143740784" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560157860126" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -141,14 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Compare_p_q_pp">
-    <configuration name="Buddy_Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.String.Buddy_Strings" />
-      <module name="DS_Algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WorldSubset">
     <configuration name="Compare_p_q_pp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Compare_p_q_pp" />
       <module name="DS_Algorithm" />
@@ -201,20 +216,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorldSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.String.WorldSubset" />
+      <module name="DS_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Buddy_Strings" />
       <item itemvalue="Application.ValidABC" />
       <item itemvalue="Application.Group_Anagrams" />
       <item itemvalue="Application.Find_And_Replace_in_String" />
       <item itemvalue="Application.Compare_p_q_pp" />
+      <item itemvalue="Application.WorldSubset" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorldSubset" />
         <item itemvalue="Application.Compare_p_q_pp" />
         <item itemvalue="Application.Find_And_Replace_in_String" />
         <item itemvalue="Application.Group_Anagrams" />
         <item itemvalue="Application.ValidABC" />
-        <item itemvalue="Application.Buddy_Strings" />
       </list>
     </recent_temporary>
   </component>
@@ -229,12 +257,21 @@
       <option name="presentableId" value="Default" />
       <updated>1558146212368</updated>
     </task>
+    <task id="LOCAL-00001" summary="dialy code 2019/6/10">
+      <created>1560157588451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560157588451</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17292225" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23190348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -251,8 +288,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4997233" weight="0.33002833" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5002767" side_tool="true" weight="0.39886847" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4997233" weight="0.32972974" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.4997233" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -266,6 +303,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dialy code 2019/6/10" />
+    <option name="LAST_COMMIT_MESSAGE" value="dialy code 2019/6/10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -336,8 +377,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Compare_p_q_pp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="345">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/String/WorldSubset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="51" column="28" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
