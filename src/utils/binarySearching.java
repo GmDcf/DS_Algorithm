@@ -70,9 +70,5 @@ public class binarySearching {
                 System.out.println(" first bigger than is at index="+biggerIndex);
             }
         }
-
-
-
-
     }
 }

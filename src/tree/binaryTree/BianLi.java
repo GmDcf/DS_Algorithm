@@ -1,4 +1,4 @@
-package tree;
+package tree.binaryTree;
 
 import SwordOffer.TreeNode;
 
@@ -55,6 +55,7 @@ public class BianLi {
         }
         System.out.println();
     }
+
     public static void postOrder(TreeNode node){
         Stack<TreeNode> stack = new Stack<>();
         TreeNode lastpop = null;
