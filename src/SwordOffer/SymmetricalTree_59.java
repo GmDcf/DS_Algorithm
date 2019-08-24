@@ -13,7 +13,7 @@ public class SymmetricalTree_59 {
         rLeft.right = new TreeNode(7);
 
         rRight.left = new TreeNode(7);
-   //     rRight.right = new TreeNode(5);
+   //     rRight.right = new BinaryTreeNode(5);
 
         System.out.println(isSymmetrical(root));
     }

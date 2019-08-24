@@ -34,16 +34,16 @@ public class TreeBianLi {
         LinkedList<TreeNode> stack = new LinkedList<>();
         //递归截止点
         while (root!=null||stack.size()!=0){
-                while (root!=null){
-                    stack.add(root);
-                    root = root.left;
-                }
+            while (root!=null){
+                stack.add(root);
+                root = root.left;
+            }
 
-                if(stack.size()!=0){
-                    root = stack.removeLast();
-                    System.out.print(root.val+" ");
-                    root = root.right;
-                }
+            if(stack.size()!=0){
+                root = stack.removeLast();
+                System.out.print(root.val+" ");
+                root = root.right;
+            }
         }
     }
 
@@ -100,13 +100,13 @@ public class TreeBianLi {
        8     7
     9    2
        4     7*/
-        /*TreeNode tree1 = new TreeNode(8);
-        tree1.left = new TreeNode(8);
-        tree1.left.left=new TreeNode(9);
-        tree1.left.right = new TreeNode(2);
-        tree1.left.right.left = new TreeNode(4);
-        tree1.left.right.right = new TreeNode(7);
-        tree1.right = new TreeNode(7);*/
+        /*BinaryTreeNode tree1 = new BinaryTreeNode(8);
+        tree1.left = new BinaryTreeNode(8);
+        tree1.left.left=new BinaryTreeNode(9);
+        tree1.left.right = new BinaryTreeNode(2);
+        tree1.left.right.left = new BinaryTreeNode(4);
+        tree1.left.right.right = new BinaryTreeNode(7);
+        tree1.right = new BinaryTreeNode(7);*/
 
         TreeNode tree1 = new TreeNode(1);
         tree1.left = new TreeNode(2);
@@ -123,13 +123,13 @@ public class TreeBianLi {
         System.out.println();
         inOrder(tree1);
 
-      /*  TreeNode tree2 = new TreeNode(8);
-        tree2.left = new TreeNode(9);
-        tree2.right = new TreeNode(2);*/
+      /*  BinaryTreeNode tree2 = new BinaryTreeNode(8);
+        tree2.left = new BinaryTreeNode(9);
+        tree2.right = new BinaryTreeNode(2);*/
 
-     /*   TreeNode tree2 = new TreeNode(1);
-        tree2.right = new TreeNode(2);
-        tree2.right.right = new TreeNode(3);
+     /*   BinaryTreeNode tree2 = new BinaryTreeNode(1);
+        tree2.right = new BinaryTreeNode(2);
+        tree2.right.right = new BinaryTreeNode(3);
 
         System.out.println();
         postOrderRe(tree2);
