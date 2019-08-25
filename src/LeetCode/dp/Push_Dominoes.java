@@ -1,4 +1,4 @@
-package LeetCode.DP;
+package LeetCode.dp;
 
 public class Push_Dominoes {
     public static String pushDominoes(String dominoes) {

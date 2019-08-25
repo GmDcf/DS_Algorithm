@@ -1,4 +1,4 @@
-package LeetCode.DP;
+package LeetCode.dp;
 
 /*
 * We partition a row of numbers A into at most K adjacent (non-empty) groups, then our score is the sum of the average of each group. What is the largest score we can achieve?

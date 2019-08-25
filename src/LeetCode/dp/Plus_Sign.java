@@ -1,4 +1,4 @@
-package LeetCode.DP;
+package LeetCode.dp;
 
 public class Plus_Sign {
     public int orderOfLargestPlusSign(int N, int[][] mines) {

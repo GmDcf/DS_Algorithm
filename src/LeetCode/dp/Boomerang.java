@@ -1,4 +1,4 @@
-package LeetCode.DP;
+package LeetCode.dp;
 
 public class Boomerang {
     public boolean isBoomerang(int[][] points) {

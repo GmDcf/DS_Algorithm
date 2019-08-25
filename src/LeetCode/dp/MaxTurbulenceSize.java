@@ -1,4 +1,4 @@
-package LeetCode.DP;
+package LeetCode.dp;
 /*
 * A subarray A[i], A[i+1], ..., A[j] of A is said to be turbulent if and only if:
 
